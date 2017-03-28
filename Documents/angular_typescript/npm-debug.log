@@ -1,0 +1,74 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   '@types/angular' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ '@types/angular', null ]
+6 verbose cache add name=undefined spec="@types/angular" args=["@types/angular",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '@types/angular',
+7 verbose parsed url   path: '@types/angular',
+7 verbose parsed url   href: '@types/angular' }
+8 verbose cache add name="" spec="types/angular" args=["","types/angular"]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'types/angular',
+9 verbose parsed url   path: 'types/angular',
+9 verbose parsed url   href: 'types/angular' }
+10 silly lockFile a8c035e8-types-angular types/angular
+11 verbose lock types/angular C:\Users\Tinu\AppData\Roaming\npm-cache\a8c035e8-types-angular.lock
+12 info maybeGithub Attempting types/angular from git://github.com/types/angular
+13 silly lockFile 8c58b553-git-github-com-types-angular git://github.com/types/angular
+14 verbose lock git://github.com/types/angular C:\Users\Tinu\AppData\Roaming\npm-cache\8c58b553-git-github-com-types-angular.lock
+15 verbose addRemoteGit [ 'git://github.com/types/angular', 'master' ]
+16 verbose git clone git://github.com/types/angular Cloning into bare repository 'C:\Users\Tinu\AppData\Roaming\npm-cache\_git-remotes\git-github-com-types-angular-8c58b553'...
+16 verbose git clone git://github.com/types/angular fatal: remote error:
+16 verbose git clone git://github.com/types/angular   Repository not found.
+17 silly lockFile 8c58b553-git-github-com-types-angular git://github.com/types/angular
+18 silly lockFile 8c58b553-git-github-com-types-angular git://github.com/types/angular
+19 info maybeGithub Attempting types/angular from git+ssh://git@github.com:types/angular
+20 silly lockFile f58c4cc7-ssh-git-github-com-types-angular git+ssh://git@github.com:types/angular
+21 verbose lock git+ssh://git@github.com:types/angular C:\Users\Tinu\AppData\Roaming\npm-cache\f58c4cc7-ssh-git-github-com-types-angular.lock
+22 verbose addRemoteGit [ 'git@github.com:types/angular', 'master' ]
+23 error git clone git@github.com:types/angular Cloning into bare repository 'C:\Users\Tinu\AppData\Roaming\npm-cache\_git-remotes\git-github-com-types-angular-8da4e923'...
+23 error git clone git@github.com:types/angular Host key verification failed.
+23 error git clone git@github.com:types/angular fatal: Could not read from remote repository.
+23 error git clone git@github.com:types/angular
+23 error git clone git@github.com:types/angular Please make sure you have the correct access rights
+23 error git clone git@github.com:types/angular and the repository exists.
+24 silly lockFile 8da4e923-git-github-com-types-angular git@github.com:types/angular
+25 silly lockFile a8c035e8-types-angular types/angular
+26 silly lockFile a8c035e8-types-angular types/angular
+27 error addLocal Could not install types/angular
+28 error Error: ENOENT, stat 'C:\Users\Tinu\Documents\angular_typescript\types\angular'
+29 error If you need help, you may report this *entire* log,
+29 error including the npm and node versions, at:
+29 error     <http://github.com/isaacs/npm/issues>
+30 error System Windows_NT 6.1.7600
+31 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "@types/angular"
+32 error cwd C:\Users\Tinu\Documents\angular_typescript
+33 error node -v v0.10.25
+34 error npm -v 1.3.24
+35 error path C:\Users\Tinu\Documents\angular_typescript\types\angular
+36 error code ENOENT
+37 error errno 34
+38 verbose exit [ 34, true ]

@@ -1,0 +1,14 @@
+<table>
+    <thead>
+        <tr>
+            <th>Product Name</th>
+            <th>Product Category</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="item in $ctrl.productList">
+            <td>{{item.name}}</td>
+            <td>{{item.category}}</td>
+        </tr>
+    </tbody>
+</table>
